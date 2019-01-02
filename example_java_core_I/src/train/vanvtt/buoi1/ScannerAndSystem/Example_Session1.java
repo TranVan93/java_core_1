@@ -14,13 +14,14 @@ import java.util.Scanner;
 public class Example_Session1 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		// compareNextAndNextLine(input);
+//		compareNextAndNextLine(input);
 
-		problem_scanner_nextInt(input);
+//		problem_scanner_nextInt(input);
 	}
 
 	public static void compareNextAndNextLine(Scanner input) {
-		// sử dụng nextLine() => trả về nội dung (kết quả) của một chuỗi đã nhập
+		// sử dụng nextLine() 
+		// => trả về nội dung (kết quả) của một chuỗi đã nhập
 		// vào
 		System.out.println("Nhập vào họ và tên: ");
 		String fullname1 = input.nextLine();
